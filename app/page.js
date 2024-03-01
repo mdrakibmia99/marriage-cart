@@ -16,7 +16,7 @@ export default function Home() {
 
 
     return (
-      <div className="flex justify-center items-center gap-2">
+      <div className="flex flex-col  justify-center items-center gap-5">
       <div className="p-10" style={{ backgroundColor, width: `${A4Width}px`, height: `${A4Height}px` }}>
         <div className="w-full h-full border-8 border-[#cfaf61] relative">
 
