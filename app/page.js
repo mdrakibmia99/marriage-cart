@@ -1,18 +1,17 @@
+import PrintButton from "@/components/PrintButton ";
 import FirstPdf from "@/components/pdf/FirstPdf";
 import SecondPdf from "@/components/pdf/SecondPdf";
 
 export default function Home() {
 
-
-
-
   return (
-    <main>
 
+    <main>
       <div className="flex flex-col  justify-center items-center ">
-          <SecondPdf/>
-          <FirstPdf/>
+        <SecondPdf />
+        <FirstPdf />
       </div>
+      <PrintButton />
     </main>
   );
 }

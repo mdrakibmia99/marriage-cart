@@ -12,7 +12,7 @@
   .diagonal{
 
     border-bottom: 40px solid rgb(59, 56, 56);
-    width: calc(300px* 1.41);
+    width: calc(305px* 1.43);
     transform: rotate(-45deg);
     transform-origin: left;
     position: absolute;
