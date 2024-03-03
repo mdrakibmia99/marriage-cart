@@ -9,3 +9,15 @@
     border-right: 0px solid transparent; /* Change size as needed */
     border-bottom: 200px solid rgb(5, 5, 5); /* Change color as needed */
   }
+  .diagonal{
+
+    border-bottom: 40px solid rgb(59, 56, 56);
+    width: calc(300px* 1.41);
+    transform: rotate(-45deg);
+    transform-origin: left;
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    
+    
+    }

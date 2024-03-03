@@ -62,13 +62,13 @@ const SecondPdf = () => {
         <div className="w-full relative" style={{ backgroundColor, width: `${A4Width}px`, height: `${A4Height}px` }}>
             <div className="flex">
             <div className="w-5/12 pr-5">
-                <div className="w-full relativ">
-                    <div className=" w-full py-20 relative ">
+                <div className="w-full relative ">
+                    <div className=" w-full py-20 relative z-10">
                         <div className=" flex overflow-hidden justify-center items-center border-4 border-black bg-white w-[200px] h-[200px] rotate-45 mx-auto py-10">
                             <Image className="-rotate-45 overflow-hidden" src={"/images/rakib.jpg"} width={200} height={200} alt="Md Rakib Mia" />
                         </div>
                     </div>
-
+                    <div className="diagonal z-0"></div>
                 </div>
 
                 <div className="flex flex-col gap-9">
