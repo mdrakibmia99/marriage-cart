@@ -11,7 +11,6 @@ const FirstPdf = () => {
     return (
         <div className="p-10" style={{ backgroundColor, width: `${A4Width}px`, height: `${A4Height}px` }}>
         <div className="w-full h-full border-8 border-[#cfaf61] relative">
-        
         <div className="flex justify-center items-center flex-col py-10">
         <p className="text-2xl font-bold text-[#be9b5b]">BIO DATA</p>
         <div className={`w-36 h-36 bg-[#ba8c41] rounded-full flex justify-center items-center `}>
