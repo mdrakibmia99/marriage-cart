@@ -55,8 +55,8 @@ import { FaUser } from "react-icons/fa";
 import { RxHobbyKnife } from "react-icons/rx";
 
 const SecondPdf = () => {
-    const A4Width = 794; // A4 width in pixels (210mm converted to pixels)
-    const A4Height = 1123; // A4 height in pixels (297mm converted to pixels)
+    const A4Width = 595 ; // A4 width in pixels (210mm converted to pixels)
+    const A4Height = 841 ;// A4 height in pixels (297mm converted to pixels)
     const backgroundColor = 'rgb(255, 250, 231)';
     return (
         <div className="w-full relative" style={{ backgroundColor, width: `${A4Width}px`, height: `${A4Height}px` }}>

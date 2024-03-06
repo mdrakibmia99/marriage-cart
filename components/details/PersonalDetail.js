@@ -11,7 +11,7 @@ const personal_detail =  {
 const PersonalDetail = () => {
     return (
         <div className='w-full'>
-            <h2 className='text-2xl font-semibold pb-4 text-[#e0c86e]'>personal Details</h2>
+            <h1 className='text-xl font-semibold pb-2 text-[#e0c86e]'>personal Details</h1>
             <div className='flex flex-col gap-1 text-black'>
 
             {
